@@ -13,7 +13,7 @@ public class paradiseInfo2 {
 		System.out.println("Enter discount rate as a whole number ");
 		discount = keyboard.nextDouble();
 		
-		savings = computeDiscountInfo(price, discount);
+		double savings = computeDiscountInfo(price, discount);
 	}
 	
 public static void displayInfo(double price, double discount) {
@@ -33,6 +33,7 @@ public static void displayInfo(double price, double discount) {
 		double savings;
 		
 		savings = price * discount / 100;
+		System.out.println("You saved $" + savings);
 		return savings;
 	}
 	
