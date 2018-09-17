@@ -7,11 +7,12 @@ public class quartToGallon {
 		// TODO Auto-generated method stub
 
 		
-		Scanner input = null;
+		Scanner inputDevice = new Scanner(System.in);
+		
 		
 		int quartsNeeded;
 		System.out.println("How Many Quarts");
-		quartsNeeded = input.nextInt();
+		quartsNeeded = inputDevice.nextInt();
 		Scanner input1 = new Scanner(System.in);
 		
 		displayConversion(quartsNeeded);
